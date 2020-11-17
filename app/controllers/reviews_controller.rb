@@ -3,7 +3,7 @@ class ReviewsController < ApplicationController
   def index
     # this is our list page for our reviews
 
-    @number = 14
+    @number = rand(100)
 
   end
 
