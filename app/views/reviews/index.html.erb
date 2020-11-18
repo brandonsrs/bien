@@ -1,7 +1,7 @@
 <% @reviews.each do |review| %>
 
 <div class="review">
-  <%= review %>
+  <%= link_to review.title, review_path(review) %>
 </div>
 
 <% end %>
