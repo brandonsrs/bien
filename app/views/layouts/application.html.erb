@@ -11,11 +11,21 @@
 
   <body>
     <header>
-      <h1><%= link_to "Bien Reviews", root_path %></h1>
+      <h1>
+      
+      <%= link_to root_path do %>
+        <%= image_tag "bien-logo.svg" %>
+        
+        <% end %>
+      </h1>
       <h2>The best restaurants in the world</h2>
       <nav>
         <%= link_to "Add Review", new_review_path %>
       </nav>
+      </header>
+
+    
+
     <%= yield %>
 
     <footer>
