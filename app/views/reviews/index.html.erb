@@ -1,9 +1,7 @@
-<h1>Bien Reviews</h1>
+<% @reviews.each do |review| %>
 
-<h2>The best resturuant reviews in the world!</h2>
+<div class="review">
+  <%= review %>
+</div>
 
-<p>The random number is <%= @number %> </p>
-
-<div class="review">The Smile</div>
-<div class="review">Baby Bo's</div>
-<div class="review">Chiptole</div>
+<% end %>

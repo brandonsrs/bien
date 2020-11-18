@@ -5,8 +5,12 @@ class ReviewsController < ApplicationController
 
     @number = rand(100)
 
-    @reviews = ["The Smile", "Baby Bo's", "Chiptole"]
+    @reviews = ["The Smile", "Baby Bo's", "Chiptole", "Albion", "McDonalds"]
     
+
+  end
+
+  def new
 
   end
 
